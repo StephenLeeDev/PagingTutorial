@@ -1,8 +1,6 @@
 package com.stephen.pagingtutorial
 
-import javax.inject.Inject
-
-class SampleBackendService @Inject constructor() {
+class SampleBackendService {
 
     fun getPagingData(page: Int): PagingSample {
         val result = mutableListOf<String>()
